@@ -1,6 +1,6 @@
 function waktuSolat(latitude, longitude) {
   fetch(
-    `http://api.aladhan.com/v1/calendar?latitude=${latitude}&longitude=${longitude}&method=4`
+    `https://api.aladhan.com/v1/calendar?latitude=${latitude}&longitude=${longitude}&method=4`
   )
     .then((res) => res.json())
     .then((res) => {
