@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 20%;
+  margin: 0px auto;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+h4 {
+  background-color: blue;
+  text-align: center;
+  padding: 20px;
+  width: 345px;
+  margin: 0px auto;
+}
